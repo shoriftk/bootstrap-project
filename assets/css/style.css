@@ -1,0 +1,71 @@
+
+
+
+/*general css*/
+body{
+	font-family: 'Dosis', sans-serif;
+}
+
+/*navigation css*/
+
+.menu li a{
+	font-weight: 300;
+	text-transform: uppercase;
+	color:#788491!important;
+	padding: 0 16px!important;
+	display: block;
+}
+.menu li a:hover{
+	color:#407DE1!important;
+}
+.logo img{
+	width: 100%;
+}
+.navbar button{
+	font-size:16px;
+	padding: 5px 8px;
+}
+.navbar button:focus{
+	outline: none;
+}
+
+/*banner css*/
+.banner{
+	background-image: url('../images/banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.banner .banner_content{
+	background-color: rgba(0,0,0,0.5);
+	padding: 25px 30px;
+	margin-top: 150px;
+}
+.banner .banner_content h1{
+	color:#fff;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.banner .banner_content p{
+	color:#fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+.banner .banner_content a{
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+	text-decoration: none;
+	font-weight: 300;
+	padding: 10px 25px;
+	border-radius: 6px;
+}
+
+/*about css*/
+.about{
+	padding: 50px 0px;
+}
+.content-block{
+	text-align: center;
+}
